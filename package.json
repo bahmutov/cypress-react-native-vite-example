@@ -1,12 +1,14 @@
 {
   "name": "vite-rnw-react-navigation",
-  "author": "Jörg Goy, Mr. Simply GmbH",
+  "description": "React Native with Vite with Cypress Component Testing",
   "version": "0.1.0",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "cypress run --component"
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.10",
