@@ -1,4 +1,4 @@
-import { Button, Text, View, TextStyle, ViewStyle } from 'react-native'
+import { Button, Text, View } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { center, text } from './styles'
 
