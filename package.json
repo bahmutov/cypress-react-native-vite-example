@@ -1,5 +1,5 @@
 {
-  "name": "vite-rnw-react-navigation",
+  "name": "cypress-react-native-vite-example",
   "description": "React Native with Vite with Cypress Component Testing",
   "version": "0.1.0",
   "private": true,
