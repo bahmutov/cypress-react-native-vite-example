@@ -1,5 +1,7 @@
+import { NavigationContainer } from '@react-navigation/native'
 import { Button, Text, View } from 'react-native'
 import { center, text } from './styles'
+import { Info } from './Info'
 
 it('shows just text', () => {
   cy.mount(<Text>Home</Text>)
@@ -34,6 +36,14 @@ it('clicks the button', () => {
   )
   cy.contains('Navigate to Info').click()
   cy.get('@press').should('have.been.calledOnce')
+})
+
+it('shows Info', () => {
+  cy.mount(
+    <NavigationContainer>
+      <Info />
+    </NavigationContainer>,
+  )
 })
 
 export {}
