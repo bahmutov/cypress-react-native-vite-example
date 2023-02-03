@@ -25,7 +25,11 @@ it('clicks the button', () => {
   cy.mount(
     <View style={center}>
       <Text style={text}>Home</Text>
-      <Button title="Navigate to Info" onPress={cy.stub().as('press')} />
+      <Button
+        title="Navigate to Info"
+        onPress={cy.stub().as('press')}
+        testID="ToHome"
+      />
     </View>,
   )
   cy.contains('Navigate to Info').click()
