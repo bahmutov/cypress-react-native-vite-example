@@ -1,3 +1,3 @@
-# Vite with React Native Web and React Navigation
+# React Native with Vite with Cypress Component Testing
 
-Working Demo, please see `vite.config.ts`.
+The original [RN plus Vite issue](https://github.com/vitejs/vite/discussions/8195)
