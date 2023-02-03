@@ -1,3 +1,5 @@
 # React Native with Vite with Cypress Component Testing
 
+![cypress version](https://img.shields.io/badge/cypress-12.5.1-brightgreen) ![react-native-web version](https://img.shields.io/badge/react--native--web-0.18.2-brightgreen) ![vite version](https://img.shields.io/badge/vite-4.1.0-brightgreen)
+
 The original [RN plus Vite issue](https://github.com/vitejs/vite/discussions/8195)

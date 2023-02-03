@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "cypress run --component"
+    "test": "cypress run --component",
+    "badges": "npx -p dependency-version-badge update-badge cypress react-native-web vite"
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.10",
